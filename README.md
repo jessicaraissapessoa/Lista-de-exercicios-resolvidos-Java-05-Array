@@ -1,4 +1,4 @@
-### Lista Java - 04 - Array
+### Lista Java - 05 - Array
 
 - Lista de exercícios resolvidos em Java
 - Tema: Array
