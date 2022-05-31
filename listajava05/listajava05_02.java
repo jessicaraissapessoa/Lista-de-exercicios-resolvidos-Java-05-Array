@@ -13,7 +13,7 @@ public class listajava05_02 {
 Scanner teclado = new Scanner (System.in);
 						
 /* 02. Escreva um código Java que recebe um array de tipo int com tamanho informado pelo usuário.
- * Em seguida, imprima todos os elementos do array em uma única linha */
+ * Em seguida, imprima todos os elementos do array em uma única linha. */
 
 	System.out.println("Informe o tamanho do vetor: ");
 	int tamanho = teclado.nextInt();
