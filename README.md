@@ -5,7 +5,7 @@
 
 ##
 
-- Organizador / Professor: Junio Figueiredo
+- Organizador / Professor: Pablo Ramon
 - Revisora / Diagramadora / Aluna: Jéssica Raissa Pessoa
 
 ##
