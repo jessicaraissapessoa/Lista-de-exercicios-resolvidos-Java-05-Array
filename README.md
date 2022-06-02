@@ -56,7 +56,7 @@
 
 <br>
 
-- 05 - Faça um programa para gerar um array de 30 elementos, onde cada elemento corresponde ao quadrado de sua posição. Depois imprima os elementos resultantes.
+- 05 - Crie um programa que receba um array de inteiros 'n' e um valor inteiro 'b'. Retorne a quantidade de vezes que 'b' aparece no array 'n'.
 
 <br>
 
