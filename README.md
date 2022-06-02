@@ -41,7 +41,7 @@
 
 <br>
 
-- 02 - Escreva um programa que leia 3 notas, calcule a média e, ao final, exiba as três notas e a média.
+- 02 - Escreva um código Java que recebe um array de tipo int com tamanho informado pelo usuário. Em seguida, imprima todos os elementos do array em uma única linha.
 
 <br>
 
