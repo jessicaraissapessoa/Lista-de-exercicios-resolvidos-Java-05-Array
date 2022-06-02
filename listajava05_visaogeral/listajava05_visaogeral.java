@@ -72,40 +72,56 @@ Scanner teclado = new Scanner (System.in);
 		
 		
 		
-	/* 02. Escreva um programa que leia 3 notas, calcule a média e, ao final, exiba as três notas e a média.
-		
-	double [] notas = new double [3];
+	/* 02. Escreva um código Java que recebe um array de tipo int com tamanho informado pelo usuário.
+	Em seguida, imprima todos os elementos do array em uma única linha.
+
+	System.out.println("Informe o tamanho do vetor: ");
+	int tamanho = teclado.nextInt();
 	
 	
-	for (int indice = 0; indice < 3; indice++)
+	int [] vetor = new int [tamanho];
+	
+	
+	if (tamanho == 0)
 	{
-		System.out.println("Informe a " + (indice + 1) + "ª nota: ");
-		notas[indice] = teclado.nextDouble();
+		System.out.println("Valor inválido");
+	}
+	else 
+	{
+		for (int indice = 0; indice < tamanho; indice++)
+		{
+				System.out.println("Informe vetor[" + indice + "]:");
+				vetor[indice] = teclado.nextInt();
+		}
 	}
 	
 	
 	
-	double soma = 0;
-	
-	for (int indice = 0; indice < 3; indice++)
+	for (int indice = 0; indice < tamanho; indice ++)
 	{
-		soma = soma + notas[indice];
-	}
-	
-	double media = soma / notas.length;
-	
-	
-	
-	for (int indice = 0; indice < 3; indice++)
-	{
+		if (tamanho == 1)
+		{
+			System.out.println("vetor[" + indice + "] = {" + vetor[indice] + "}");
+		}
 		
-		if (indice == 0) System.out.print("Suas notas são: " + nota.format(notas[indice]) + "/ ");
-		else if (indice < (notas.length - 1)) System.out.print(nota.format(notas[indice]) + "/ ");
-		else System.out.print(nota.format(notas[indice]) + ".");
-		
+		else
+		{
+			if (indice == 0)
+			{
+				System.out.print("vetor[" + indice + "] = {" + vetor[indice] + ", ");
+			}
+			
+			else if (indice == (vetor.length - 1))
+			{
+				System.out.print(vetor[indice] + "}");
+			}
+			
+			else
+			{
+				System.out.print(vetor[indice] + ", ");
+			}
+		}
 	}
-	
-	System.out.println("\nSua média é: " + nota.format(media));
 		
 		
 		
