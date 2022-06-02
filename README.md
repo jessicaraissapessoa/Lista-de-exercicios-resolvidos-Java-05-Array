@@ -33,7 +33,11 @@
 
 #### Questões:
 
-- 01 - Escreva um programa que leia 04 números e mostra cada um e sua posição no array.
+- 01 - Para cada série de valores abaixo, escreva um código Java que preencha um array com os mesmos, imprimindo-os em seguida:
+       <br>a. 2 3 4 5 6 11 65 2
+       <br>b. 25 66 8 9 3 44 5
+       <br>c. Campina Grande, João Pessoa, Conde, Cabedelo
+       <br>d. A+, B-, AB, O+, O-.
 
 <br>
 
