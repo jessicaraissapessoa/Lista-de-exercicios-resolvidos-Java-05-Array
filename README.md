@@ -45,7 +45,7 @@
 
 <br>
 
-- 03 - Escreva um programa que receba um vetor de 5 elementos e, em seguida, multiplique os elementos pares por 3 e adicionando 1 aos elementos ímpares. Mostre o vetor alterado.
+- 03 - Construa um programa que leia 5 valores double e os armazene em um array 'notas', exibindo-os em seguida.
 
 <br>
 
