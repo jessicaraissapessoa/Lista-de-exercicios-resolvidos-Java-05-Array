@@ -60,7 +60,7 @@
 
 <br>
 
-- 06 - Criar um vetor A com 5 elementos inteiros e um vetor B com mesmo tipo, tamanho e elementos do vetor A.
+- 06 - Escreva um código que receba um array de inteiros com tamanho e elementos determinados pelo usuário, exibindo-os em seguida.
 
 <br>
 
