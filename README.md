@@ -64,7 +64,7 @@
 
 <br>
 
-- 07 - Criar um vetor A com 10 elementos inteiros. Construir um vetor B de mesmo tipo e tamanho, sendo que cada elemento do vetor B deverá ser o respectivo elemento do vetor A multiplicado pelo índice. Ou seja, vetorB[indice] = vetorA[indice] * indice. Exiba os elementos do vetor A e do vetor B.
+- 07 - 07. Faça um código Java que receba um array de inteiros 'a' e retorne um array de booleanos no qual, a cada posição, indique true se o elemento correspondente de 'a' for par, e false se o elemento correspondente de 'a' for ímpar.
 
 <br>
 
