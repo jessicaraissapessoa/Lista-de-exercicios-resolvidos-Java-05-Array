@@ -49,7 +49,10 @@
 
 <br>
 
-- 04 - Declarar e ler um vetor de 5 números inteiro e, após, exibir o vetor na ordem inversa dos elementos digitados.
+- 04 - Crie um código que leia o array de inteiros nums[3, 4, 5, 2, -6, 8, 18, -3, 0] e retorne:
+       <br>a. A quantidade de elementos;
+       <br>b. A quantidade de elementos que são números negativos;
+       <br>c. A quantidade de elementos que são números pares.
 
 <br>
 
