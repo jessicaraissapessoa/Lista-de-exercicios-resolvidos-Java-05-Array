@@ -64,16 +64,8 @@
 
 <br>
 
-- 07 - 07. Faça um código Java que receba um array de inteiros 'a' e retorne um array de booleanos no qual, a cada posição, indique true se o elemento correspondente de 'a' for par, e false se o elemento correspondente de 'a' for ímpar.
+- 07 - Faça um código Java que receba um array de inteiros 'a' e retorne um array de booleanos no qual, a cada posição, indique true se o elemento correspondente de 'a' for par, e false se o elemento correspondente de 'a' for ímpar.
 
 <br>
 
-- 08 - Criar dois vetores (A e B), cada um com 10 elementos inteiros. Após, construir um vetor C, no qual cada elemento é o resultado da multiplicação dos respectivos elementos em A e B. Ou seja, C[indice] = A[indice] * B[indice].
-
-<br>
-
-- 09 - Faça um programa para criar um vetor de 20 posições: as 10 primeiras são números informados pelos usuário e as 10 seguintes são os mesmos números em ordem inversa.
-
-<br>
-
-- 10 - Crie dois vetores (A e B). A com 10 números inteiros e B com 15 números inteiros. Em seguida, crie um terceiro vetor (C), que deverá ser a junção dos dois primeiros vetores (A e B). Exiba os vetores criados.
+- 08 - Escreva um código que percorra um array de inteiros e retorne a posição de maior valor. Caso haja mais de um valor, trazer apenas a primeira ocorrência.
