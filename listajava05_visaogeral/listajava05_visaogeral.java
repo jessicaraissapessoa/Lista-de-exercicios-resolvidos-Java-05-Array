@@ -186,22 +186,36 @@ Scanner teclado = new Scanner (System.in);
 		
 		
 		
-	//* 05. Faça um programa para gerar um array de 30 elementos, onde cada elemento corresponde ao quadrado de sua posição.
-	Depois imprima os elementos resultantes.
-		
-	double [] vetor = new double [30];
+	/* 05. Crie um programa que receba um array de inteiros 'n' e um valor inteiro 'b'. 
+	Retorne a quantidade de vezes que 'b' aparece no array 'n'.
+
+	System.out.println("Informe a quantidade de elementos do vetor 'n': ");
+	int qtdd = teclado.nextInt();
+	
+	int [] n = new int [qtdd];
 	
 	
-	for (int indice = 0; indice < 30; indice++)
+	for (int indice = 0; indice < qtdd; indice++)
 	{
-		vetor[indice] = Math.pow(indice, 2);
+		System.out.println("Informe n[" + indice + "]:");
+		n[indice] = teclado.nextInt();
 	}
 	
 	
-	for (int indice = 0; indice < 30; indice++)
+	System.out.println("Informe um número para saber quantas vezes ele aparece no decorrer do vetor n: ");
+	int b = teclado.nextInt();
+	
+	
+	int contador = 0;
+	
+	
+	for (int indice = 0; indice < qtdd; indice++)
 	{
-		System.out.println(vetor[indice]);
+		if (n[indice] == b) contador++;
 	}
+	
+	
+	System.out.println(b + " aparece " + contador + " vez(es) no decorrer do vetor n[" + qtdd + "].");
 		
 		
 		
