@@ -220,36 +220,34 @@ Scanner teclado = new Scanner (System.in);
 		
 		
 		
-	/* 06. Criar um vetor A com 5 elementos inteiros e um vetor B com mesmo tipo, tamanho e elementos do vetor A.
-		
-	int [] vetorA = new int [5];
-	int [] vetorB = new int [5];
-	
-	
-	for (int indice = 0; indice < 5; indice++)
-	{
-		
-		System.out.println("Defina vetorA[" + indice + "]: ");
-		vetorA[indice] = teclado.nextInt();
-		
-		vetorB[indice] = vetorA[indice];
-		
-	}
-	
-	
-	for (int indice = 0; indice < 5; indice++)
-	{
-	
-	System.out.println("vetorA[" + indice + "] = " + vetorA[indice]);
-	
-	}
-	
+	/* 06. Escreva um código que receba um array de inteiros com tamanho e elementos determinados pelo usuário,
+	exibindo-os em seguida.
 
-	for (int indice = 0; indice < 5; indice++)
+	System.out.println("Defina o tamanho do vetor: ");
+	int tamanho = teclado.nextInt();
+	
+	int [] vetor = new int [tamanho];
+	
+	for (int indice = 0; indice < tamanho; indice++)
 	{
+		System.out.println("Informe o " + (indice + 1) + "º elemento do vetor: ");
+		vetor[indice] = teclado.nextInt();
+	}
 	
-	System.out.println("vetorB[" + indice + "] = " + vetorB[indice]);
+	System.out.println("\n");
 	
+	//exibição com for:
+	for (int indice = 0; indice < tamanho; indice++)
+	{
+		System.out.println("vetor[" + indice + "] = " + vetor[indice]);
+	}
+	
+	System.out.println("\n");
+	
+	//exibição com foreach:
+	for (int listavetor: vetor)
+	{
+		System.out.println(listavetor);
 	}
 		
 		
