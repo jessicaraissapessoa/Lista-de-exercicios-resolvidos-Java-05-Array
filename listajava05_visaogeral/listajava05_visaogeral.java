@@ -146,26 +146,42 @@ Scanner teclado = new Scanner (System.in);
 		
 		
 		
-	/* 04. Declarar e ler um vetor de 5 números inteiro e, após, exibir o vetor na ordem inversa dos elementos digitados.
-		
-	int [] vetor = new int [5];
+	/* 04. Crie um código que leia o array de inteiros nums[3, 4, 5, 2, -6, 8, 18, -3, 0] e retorne:
+	a. A quantidade de elementos;
+	b. A quantidade de elementos que são números negativos;
+	c. A quantidade de elementos que são números pares.
+
+	int [] notas = {3, 4, 5, 2, -6, 8, 18, -3, 0};
 	
 	
-	for (int indice = 0; indice < vetor.length; indice++) 
+	int qtddelementos = 0;
+	
+	for (int indice = 0; indice < notas.length; indice++)
 	{
-		
-		System.out.println("Informe o elemento de índice " + indice + " do vetor: ");
-		vetor[indice] = teclado.nextInt();
-		
+		qtddelementos++;
 	}
 	
 	
-	for (int indice = 4; indice >= 0; indice--)
+	int qtddnegativos = 0;
+	
+	for (int indice = 0; indice < notas.length; indice++)
 	{
-		
-		System.out.println("vetor[" + indice + "] = " + vetor[indice]);
-		
+		if (notas[indice] < 0) qtddnegativos++;
 	}
+	
+	
+	int qtddpares = 0;
+	
+	for (int indice = 0; indice < notas.length; indice++)
+	{
+		if (notas[indice] %2 == 0) qtddpares++;
+	}
+	
+	
+	
+	System.out.println("Quantidade de elementos: " + qtddelementos);
+	System.out.println("Quantidade de elementos que são números negativos: " + qtddnegativos);
+	System.out.println("Quantidade de elementos que são números pares: " + qtddpares);
 
 		
 		
