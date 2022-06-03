@@ -253,96 +253,74 @@ Scanner teclado = new Scanner (System.in);
 		
 		
 		
-	/* 07. Criar um vetor A com 10 elementos inteiros.
-	Construir um vetor B de mesmo tipo e tamanho, sendo que cada elemento do vetor B deverá ser o respectivo elemento do vetor A multiplicado pelo índice.
-	Ou seja, vetorB[indice] = vetorA[indice] * indice.
-	Exiba os elementos do vetor A e do vetor B.
-		
-	int [] vetorA = new int [10];
-	int [] vetorB = new int [10];
-	
-	
-	for (int indice = 0; indice < 10; indice++)
-	{
-		
-		System.out.println("Defina vetorA[" + indice + "]: ");
-		vetorA[indice] = teclado.nextInt();
-		
-		vetorB[indice] = vetorA[indice] * indice;
-		
-	}
-	
-	
-	for (int indice = 0; indice < 10; indice++)
-	{
-	
-	System.out.println("vetorA[" + indice + "] = " + vetorA[indice]);
-	
-	}
-	
+	/* 07. Faça um código Java que receba um array de inteiros 'a' e retorne um array de booleanos no qual,
+	a cada posição, indique true se o elemento correspondente de 'a' for par,
+	e false se o elemento correspondente de 'a' for ímpar.
 
-	System.out.println("\n");
+	System.out.println("Informe a quantidade de elementos do vetor: ");
+	int qtdd = teclado.nextInt();
+	
+	
+	
+	int [] vetor = new int [qtdd];
+	
+	for (int indice = 0; indice < qtdd; indice++) {
+		System.out.println("Informe o " + (indice + 1) + "º numero: ");
+		vetor[indice] = teclado.nextInt();
+	}
+	
+	
+	
+	boolean parouimpar = false;
+	
+	for (int indice = 0; indice < qtdd; indice++) {
+		if (vetor[indice] %2 == 0) 
+			{
+			parouimpar = true;
+			System.out.println(vetor[indice] + " - " + parouimpar);
+			}
+		else 
+			{
+			parouimpar = false;
+			System.out.println(vetor[indice] + " - " + parouimpar);
+			}
+	}
+		
+		
+		
+		
+	/* 08. Escreva um código que percorra um array de inteiros e retorne a posição de maior valor.
+	Caso haja mais de um valor, trazer apenas a primeira ocorrência.
 
-
-	for (int indice = 0; indice < 10; indice++)
-	{
-	
-	System.out.println("vetorB[" + indice + "] = " + vetorB[indice]);
-	
-	}
-		
-		
-		
-		
-	/* 08. Criar dois vetores (A e B), cada um com 10 elementos inteiros.
-	Após, construir um vetor C, no qual cada elemento é o resultado da multiplicação dos respectivos elementos em A e B.
-	Ou seja, C[indice] = A[indice] * B[indice].
-		
-	int [] vetorA = new int [10];
-	int [] vetorB = new int [10];
-	int [] vetorC = new int [10];
+	System.out.println("Informe a quantidade de elementos do vetor: ");
+	int qtdd = teclado.nextInt();
 	
 	
 	
-	for (int indice = 0; indice < 10; indice++)
-	{
-		System.out.println("Defina vetorA[" + indice + "]:");
-		vetorA[indice] = teclado.nextInt();
-	}
+	int [] vetor = new int [qtdd];
 	
-	
-	for (int indice = 0; indice < 10; indice++)
-	{
-		System.out.println("Defina vetorB[" + indice + "]:");
-		vetorB[indice] = teclado.nextInt();
-	}
-	
-	
-	for (int indice = 0; indice < 10; indice++)
-	{
-		vetorC[indice] = vetorA[indice] * vetorB[indice];
+	for (int indice = 0; indice < qtdd; indice++) {
+		System.out.println("Informe o " + (indice + 1) + "º numero: ");
+		vetor[indice] = teclado.nextInt();
 	}
 	
 	
 	
-	for (int indice = 0; indice < 10; indice++)
-	{
-		System.out.println("vetorA[" + indice + "] = " + vetorA[indice]);
+	int maiorindice = 0;
+	int maiornumero = 0;
+	
+	for (int indice = 0; indice < qtdd; indice++) {
+		if (vetor[indice] > maiornumero)
+		{
+			maiornumero = vetor[indice];
+			maiorindice = indice;
+		}
 	}
 	
-	System.out.println("\n");
 	
-	for (int indice = 0; indice < 10; indice++)
-	{
-		System.out.println("vetorB[" + indice + "] = " + vetorB[indice]);
-	}
 	
-	System.out.println("\n");
-	
-	for (int indice = 0; indice < 10; indice++)
-	{
-		System.out.println("vetorC[" + indice + "] = " + vetorC[indice]);
-	}
+	System.out.println("Maior número do vetor: ");
+	System.out.println("vetor[" + maiorindice + "] = " + maiornumero);
 	
 		
 		
