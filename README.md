@@ -16,8 +16,7 @@
 - System.out.print
 - Saltar linha (\n)
 - Scanner (entrada: teclado)
-- DecimalFormat
-- Variáveis do tipo: int, double
+- Variáveis do tipo: int, double, String
 - Operadores aritméticos (+ - * / %)
 - Operadores de igualdade e desigualdade (== !=)
 - Operadores relacionais (> < >= <=)
@@ -27,6 +26,7 @@
 - if / else if / else
 - Array
 - for
+- - foreach
 - .length
 
 ##
